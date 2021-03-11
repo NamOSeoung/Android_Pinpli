@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pinpli</string>
+    <string name="title_activity_navigation_root">MainActivity</string>
+    <string name="title_around">내 주변 가게</string>
+    <string name="title_search">검색</string>
+    <string name="title_place">Pin한 장소</string>
+    <string name="title_review">Pin한 리뷰</string>
+    <string name="title_my">내정보</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_around"
+        android:icon="@drawable/nav_around"
+        android:title="내 주변 가게"
+        />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/nav_search"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_place"
+        android:icon="@drawable/nav_place"
+        android:title="@string/title_place" />
+
+    <item
+        android:id="@+id/navigation_review"
+        android:icon="@drawable/nav_review"
+        android:title="@string/title_review" />
+
+    <item
+        android:id="@+id/navigation_my"
+        android:icon="@drawable/nav_my"
+        android:title="@string/title_my"
+        />
+
+</menu>

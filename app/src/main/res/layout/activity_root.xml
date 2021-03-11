@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.root.RootActivity">
+
+    <ImageView
+        android:id="@+id/headerLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pinpil_logo_main"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/tourBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일단 둘러보기"
+        android:textSize="16dp"
+        android:fontFamily="@font/apple_sd_gothic_neo_r"
+        android:textColor="@color/black"
+        android:background="@drawable/border"
+        android:stateListAnimator="@null"
+        app:layout_constraintTop_toBottomOf="@id/headerLogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <View
+        android:id="@+id/leftLine"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        app:layout_constraintTop_toBottomOf="@id/tourBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/loginGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인하기"
+        android:fontFamily="@font/apple_sd_gothic_neo_r"
+        android:textColor="#828282"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/tourBtn"
+        app:layout_constraintLeft_toRightOf="@id/leftLine"
+        app:layout_constraintRight_toLeftOf="@+id/rightLine"
+        />
+    <View
+        android:id="@+id/rightLine"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        app:layout_constraintTop_toBottomOf="@id/tourBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/kakaoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_kakao"
+        app:layout_constraintTop_toBottomOf="@+id/loginGL"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/appleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_apple"
+        app:layout_constraintTop_toBottomOf="@+id/loginGL"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

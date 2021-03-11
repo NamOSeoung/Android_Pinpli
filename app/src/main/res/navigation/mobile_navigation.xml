@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_around"
+    >
+
+
+    <fragment
+        android:id="@+id/navigation_around"
+        android:name="com.pinpli.activity.around.AroundFragment"
+        android:label="@string/title_around"
+        tools:layout="@layout/fragment_around" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.pinpli.activity.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_place"
+        android:name="com.pinpli.activity.place.PlaceFragment"
+        android:label="@string/title_place"
+        tools:layout="@layout/fragment_place" />
+
+    <fragment
+        android:id="@+id/navigation_review"
+        android:name="com.pinpli.activity.review.ReviewFragment"
+        android:label="@string/title_review"
+        tools:layout="@layout/fragment_review" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.pinpli.activity.my.MyFragment"
+        android:label="@string/title_my"
+        tools:layout="@layout/fragment_my" />
+</navigation>
